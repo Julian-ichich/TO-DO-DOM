@@ -1,0 +1,38 @@
+/* .cardBody{
+    background-image: url(./assets/img/hojaoscura.png);
+    background-repeat: no-repeat;
+   background-size: 100%;
+   
+  
+}  */
+
+.divInstrucciones{
+    display: flex;
+    gap: 10%;
+}
+
+.decorationSearch{
+    box-shadow: 1px 5px 5px 5px gray ;
+    
+}
+
+.imgBoton{
+    background-image: url(./assets/icons/trash3-fill.svg);
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.botonTamanio{
+    font-size: 10px;
+    height: 25px;
+    width: 90px;
+    box-shadow: 1px 3px 3px 3px rgb(255, 255, 255) ;
+    background-color: rgb(141, 140, 140);
+    color: white;
+   
+}
+
+.botonTamanio:hover{
+    background-color: rgb(255, 136, 0);
+
+}

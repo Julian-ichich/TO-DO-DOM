@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="shortcut icon" href="./assets/img/todologo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="bg-secondary-subtle">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TO DO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Barra de menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://leadsales.io/blog/como-hacer-una-to-do-list-efectiva/#:~:text=Trata%20de%20limitar%20tus%20tareas,marcar%20diariamente%20las%20tareas%20completadas.">Tips</a>
+                </li>
+                
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Ingresa lo que desea buscar" aria-label="Search">
+                <button class="btn btn-success" type="submit">Buscar</button>
+              </form>
+           
+        </div>
+      </nav>
+
+
+    <div class="container bg-black" style="padding-bottom: 0.5%; margin-top: 2%;">
+        
+        <div class="card">
+
+            <div class="card-body cardBody"  style="padding-top: 5%;">
+                <h1 class="text-center">Ordena tu futuro!!</h1>
+                <div class="row">
+                    <div class="col-8 d-flex justify-content-end">
+                        <input type="text" class="form-control decorationSearch" id="creaTarea" placeholder="Ingrese una tarea">
+                    </div>
+                    <div class="col-4 d-flex justify-content-right">
+                        <button class="btn  btn-primary decorationSearch" id="btnTarea">Agregar tarea</button>
+
+                    </div>
+                    <!-- <div class="divInstrucciones">
+                      <P class="bg-success-subtle border border-danger fs-6 ">1)AGREGA UNA TAREA</P>
+                      <P class="bg-success-subtle border border-danger fs-6 ">2)UN CLICK PARA EL CHECK</P>
+                      <P class="bg-success-subtle border border-danger fs-6 ">3)DOBLE CLICK PARA ELIMINAR EL CHECK</P>
+                    </div> -->
+                </div>
+                <div id="tareas">
+                    <div class="form-check">
+                        <input id="uno" class="form-check-input" type="checkbox" hidden>
+                        <label class="form-check-label" for="defaultCheck1">
+                            <p id="textUno" class="bg-success-subtle text-danger mt-4">ORDENA TUS IDEAS Y CUMPLE TUS SUEÑOS</p> 
+                        </label>
+                    </div>
+                   
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
